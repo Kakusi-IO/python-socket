@@ -19,7 +19,7 @@ PORT = 50000      # ポート番号
 # ソケットの作成
 server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 # アドレスの設定
-server.bind(("" PORT))
+server.bind(("", PORT))
 # 接続の待ち受け
 server.listen()
 
